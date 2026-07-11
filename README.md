@@ -6,7 +6,7 @@
 - **Section:** B
 - **Course Name:** Web Technologies
 
-## Week 1 – Static Mobile Store Website
+## Week 1 – Static Web Page
 Created a basic static website for an online mobile store. The main page links to separate pages for individual mobile products. Each product page includes:
 * Product images
 * Bulleted lists for mobile features and specs
@@ -14,7 +14,7 @@ Created a basic static website for an online mobile store. The main page links t
 
 ---
 
-## Week 2 – Layout with Nested Frames & CSS
+## Week 2 – Home Page with Nested Frames
 Designed a homepage layout using nested frames. The page is split into three sections:
 * **Title Frame:** Displays the name of the organization
 * **Navigation Frame:** A sidebar containing links to other pages
@@ -43,7 +43,7 @@ Used **JavaScript** to calculate the Equated Monthly Installment (EMI) and displ
 
 ---
 
-## Week 5 – Form Validation using JavaScript Regex
+## Week 5 – Form Validation using Regular Expressions
 Added client-side validation to the Week 3 Job Registration Form using **JavaScript Regular Expressions (Regex)**. 
 
 The script checks the following inputs:
