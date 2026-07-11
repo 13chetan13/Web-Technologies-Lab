@@ -1,0 +1,50 @@
+<html>
+<h3>JOB REGISTRATION FORM</h3>
+
+<body align="center">
+    <form>
+        <table align="center">
+            <tr><td>Name <input type="text" id="one"></td></tr>
+            <tr><td>Email <input type="email" id="two"></td></tr>
+            <tr><td>Number <input type="number" id="three"></td></tr>
+            <tr><td><input type="submit" onclick="return validate()"></td></tr>
+        </table>
+    </form>
+
+    <h3 align="right">P.Chetan</h3>
+    <h3 align="right">24881A12B7</h3> 
+
+    <script>
+        function validate(){
+            var un=document.getElementById("one"),
+                em=document.getElementById("two"),
+                mb=document.getElementById("three");
+
+            var unre=/^[a-zA-Z]+[0-9a-zA-Z._]*$/,
+                ere=/^[a-zA-Z]+([\._]?\w+)*@\w+([\._]?\w+)*(\.\w{2,3})+$/,
+                mre=/^[6-9][0-9]{9}$/;
+
+            if(unre.test(un.value)){
+                if(ere.test(em.value)){
+                    if(mre.test(mb.value)){
+                        alert("Register Successfully");
+                        return true;
+                    }
+                    return error(mb);
+                }
+                return error(em);
+            }
+            return error(un);
+        }
+
+        function error(ele){
+            alert("Invalid");
+            ele.style.border="3px solid red";
+            ele.value="";
+            ele.placeholder="Invalid";
+            ele.focus();
+            return false;
+        }
+    </script>
+</body>
+</html>
