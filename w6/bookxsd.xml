@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="book.xsd">
+
+    <B>
+        <id>101</id>
+        <n>JP</n>
+        <nop>1000</nop>
+        <aut>J</aut>
+        <p>200</p>
+    </B>
+    
+</BO>

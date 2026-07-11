@@ -1,0 +1,9 @@
+
+<!ELEMENT BO (B+)>
+<!ELEMENT B (id,n,nop,aut,p)>
+
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT n (#PCDATA)>
+<!ELEMENT nop (#PCDATA)>
+<!ELEMENT aut (#PCDATA)>
+<!ELEMENT p (#PCDATA)>

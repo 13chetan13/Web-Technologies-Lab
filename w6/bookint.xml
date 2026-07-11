@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE BO [
+    <!ELEMENT BO (B+)>
+    <!ELEMENT B (id,n,nop,aut,p)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT n (#PCDATA)>
+    <!ELEMENT nop (#PCDATA)>
+    <!ELEMENT aut (#PCDATA)>
+    <!ELEMENT p (#PCDATA)>
+]>
+
+<BO>
+    <B>
+        <id>101</id>
+        <n>JP</n>
+        <nop>1000</nop>
+        <aut>J</aut>
+        <p>200</p>
+    </B>
+</BO>

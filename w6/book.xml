@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BO SYSTEM "book.dtd">
+
+<BO>
+    <B>
+        <id>101</id>
+        <n>JP</n>
+        <nop>1000</nop>
+        <aut>J</aut>
+        <p>200</p>
+    </B>
+
+    <B>
+        <id>101</id>
+        <n>JP</n>
+        <nop>1000</nop>
+        <aut>J</aut>
+        <p>200</p>
+    </B>
+</BO>
