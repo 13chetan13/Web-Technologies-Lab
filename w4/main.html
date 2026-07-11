@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <style>
+            input[type=Text]{
+                width: 100%;
+                background:aqua;
+                color: aliceblue;
+                border: 2px soli;
+                padding: 15px;
+            }
+            input[type=Number]
+            {
+                width: 100%;
+                background:rgb(219, 50, 126);
+                color: rgb(255, 240, 254);
+                border: 2px soli;
+                padding: 15px;
+            }
+            input[type="button"]
+            {
+                 width: 100%;
+                background:rgb(227, 2, 2);
+                color: rgb(255, 240, 254);
+                border: 2px soli;
+                padding: 15px;
+            }
+        </style>
+    </head>
+    <body >
+        <h1 align="center">EMI CALCULATOR</h1>
+        <form>
+            Name<input type="text" placeholder="enter name:" id="n"><br>
+            Occupation <input type="text" placeholder="enter occ" id="o"><br>
+            Amount <input type="number" placeholder="Enter amount" id="a"> <br>
+            ROI <input type="number" placeholder="Enter ROI" id="r"> <br>
+            Tenure <input type="number" placeholder="Enter time" id="t"><br><br>
+            <input type="button" value="Calc EMI" onclick="emi()" >
+        </form>
+            <h3>EMI : </h3> <p id="res"></p>
+        <script>
+            function emi()
+            {
+                var a = Number(document.getElementById("a").value);
+                var r = Number(document.getElementById("r").value);
+                var t = Number(document.getElementById("t").value);
+                r = r/(12*100);
+                t = t*12;
+                var e = (a*r*Math.pow((1+r),t))/(Math.pow((1+r),t)-1);
+
+                document.getElementById("res").innerText = e;
+            }
+        </script>
+        <br>
+        <h5 align="right">P.Chetan </h5>
+        <h5 align="right">24881A12B7</h5>
+    </body>
+
+</html>
